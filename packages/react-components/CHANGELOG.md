@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+## [3.0.0](https://github.com/square-li/iot-app-kit/compare/react-components-v2.6.5...react-components-v3.0.0) (2023-03-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* Remove unecessary exports, utilize core types instead of SynchroChart types ([#600](https://github.com/square-li/iot-app-kit/issues/600))
+
+### Features
+
+* add npm-publish github workflow ([#68](https://github.com/square-li/iot-app-kit/issues/68)) ([64e64b8](https://github.com/square-li/iot-app-kit/commit/64e64b800ad3b6ddbee78cfe84c3750e73dead65))
+* backfill component integration tests ([#66](https://github.com/square-li/iot-app-kit/issues/66)) ([4f17201](https://github.com/square-li/iot-app-kit/commit/4f17201f5990876b67861f091dbdcdb5345a28c2))
+* create react-components and source-iotsitewise pkgs ([#57](https://github.com/square-li/iot-app-kit/issues/57)) ([16451b1](https://github.com/square-li/iot-app-kit/commit/16451b12e0fe2662069275185b2fea61048d3fab))
+* **dashboard:** initial dashboard work ([06cc210](https://github.com/square-li/iot-app-kit/commit/06cc21079dc0446a06c72db676dba27f05a1606f))
+* **EnvironmentModel:** Adding support for environment overlay ([#262](https://github.com/square-li/iot-app-kit/issues/262)) ([0277027](https://github.com/square-li/iot-app-kit/commit/0277027d59f232c2c8e29fac0bc53399a1eb9c1e))
+* improve documentation and clarity of react-components pkg ([#60](https://github.com/square-li/iot-app-kit/issues/60)) ([f4239cf](https://github.com/square-li/iot-app-kit/commit/f4239cf1ca201044095004a2e6c358f3a4c90ebc))
+* Introduce alarms ([#135](https://github.com/square-li/iot-app-kit/issues/135)) ([5c19b99](https://github.com/square-li/iot-app-kit/commit/5c19b9957c05fbc8df15545ae9847d39030b686b))
+* **props:** adapt props for synchro-charts ([#133](https://github.com/square-li/iot-app-kit/issues/133)) ([a98bf06](https://github.com/square-li/iot-app-kit/commit/a98bf064f14979823f51437dbd599259b6bd6d78))
+* **react-components:** publish TimeSync component as part of the public API ([#621](https://github.com/square-li/iot-app-kit/issues/621)) ([a4e2f66](https://github.com/square-li/iot-app-kit/commit/a4e2f66e6a0a2d58eb1a5316ac3fab4520dd3161))
+* **react-components:** release useViewport hook ([#631](https://github.com/square-li/iot-app-kit/issues/631)) ([794b4a4](https://github.com/square-li/iot-app-kit/commit/794b4a49c70824836ac0fadf8008d0937059d16d))
+* **TwinMaker:** Add TwinMaker packages ([#252](https://github.com/square-li/iot-app-kit/issues/252)) ([fabbe03](https://github.com/square-li/iot-app-kit/commit/fabbe0399dd37293e99588124404c37c929f4330))
+
+
+### Bug Fixes
+
+* **react-components, videoPlayer:** fix propertiesNotChanged for videoPlayer ([11665c0](https://github.com/square-li/iot-app-kit/commit/11665c0af13e98dc6602d8bf8aac7733d063633c))
+* Remove unecessary exports, utilize core types instead of SynchroChart types ([#600](https://github.com/square-li/iot-app-kit/issues/600)) ([15d6740](https://github.com/square-li/iot-app-kit/commit/15d67401b7e152eeba1e550efc75faf79cefbf7e))
+* **video-player:** use static timestamps instead dynamic ones ([1e434a6](https://github.com/square-li/iot-app-kit/commit/1e434a6632c6dd797f9d0dacd3ed3547622d93c9))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @iot-app-kit/components bumped from * to 3.0.0
+    * @iot-app-kit/core bumped from * to 3.0.0
+    * @iot-app-kit/source-iottwinmaker bumped from * to 3.0.0
+
 ## [2.6.5](https://github.com/awslabs/iot-app-kit/compare/react-components-v2.6.4...react-components-v2.6.5) (2023-01-25)
 
 

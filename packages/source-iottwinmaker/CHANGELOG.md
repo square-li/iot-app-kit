@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.0](https://github.com/square-li/iot-app-kit/compare/source-iottwinmaker-v2.6.5...source-iottwinmaker-v3.0.0) (2023-03-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* Remove unecessary exports, utilize core types instead of SynchroChart types ([#600](https://github.com/square-li/iot-app-kit/issues/600))
+
+### Features
+
+* Introduce alarms ([#135](https://github.com/square-li/iot-app-kit/issues/135)) ([5c19b99](https://github.com/square-li/iot-app-kit/commit/5c19b9957c05fbc8df15545ae9847d39030b686b))
+* prevent unsupported data types from being rendered ([#426](https://github.com/square-li/iot-app-kit/issues/426)) ([dec2a86](https://github.com/square-li/iot-app-kit/commit/dec2a86f0eccfe87ebfc32d89f74fb8695bb552d))
+* **TwinMaker:** Add TwinMaker packages ([#252](https://github.com/square-li/iot-app-kit/issues/252)) ([fabbe03](https://github.com/square-li/iot-app-kit/commit/fabbe0399dd37293e99588124404c37c929f4330))
+
+
+### Bug Fixes
+
+* **dashboard/components:** add missing prop to webgl component and refactor in dashboard to fix overlay problem ([59738ac](https://github.com/square-li/iot-app-kit/commit/59738ac9551aa5b55448281a82fa88d1edc700d0))
+* **deps:** update synchro-charts, node-sass, nth-check ([#295](https://github.com/square-li/iot-app-kit/issues/295)) ([164b751](https://github.com/square-li/iot-app-kit/commit/164b7511ef2d42f1e816d804628440e577f03e43))
+* Remove unecessary exports, utilize core types instead of SynchroChart types ([#600](https://github.com/square-li/iot-app-kit/issues/600)) ([15d6740](https://github.com/square-li/iot-app-kit/commit/15d67401b7e152eeba1e550efc75faf79cefbf7e))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @iot-app-kit/core bumped from * to 3.0.0
+
 ## [2.6.5](https://github.com/awslabs/iot-app-kit/compare/source-iottwinmaker-v2.6.4...source-iottwinmaker-v2.6.5) (2023-01-25)
 
 
